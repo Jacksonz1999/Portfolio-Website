@@ -11,7 +11,6 @@ import {
   faUser,
   faEnvelope,
   faSuitcase,
-  faBars,
   faClose,
   faRocket,
 } from '@fortawesome/free-solid-svg-icons'
