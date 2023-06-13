@@ -1,5 +1,6 @@
 
 import './index.scss'
+import logoTitle from '../../assets/images/imageJ.png'
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -22,7 +23,7 @@ const Sidebar = () => {
   return (
     <div className="nav-bar">
        <Link className='logo' to="/">
-      <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqoLk-HlqnD_HD82kZdhh7R71hRpB8_BIfrqoX9Ked&s' alt='Jackson'></img>
+       <img src={logoTitle} alt="developer" />
       </Link> 
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink 
@@ -96,7 +97,7 @@ const Sidebar = () => {
               className="anchor-icon"
             />
           </a>
-        </li>   
+        </li>  
       </ul>
       
     </div>
